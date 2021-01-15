@@ -27,6 +27,8 @@ for (let i = 0; i < 2; i++) {
     console.log('done');
     appData.expenses[a] = b;
   } else {
+    console.log('Bad result');
+    i--;
   }
 }
 
