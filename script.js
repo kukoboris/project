@@ -52,7 +52,7 @@ function detectDayBudget() {
 
 detectDayBudget();
 
-// Расчет уровня достатка
+// Расчет уровня достатка (в консоль)
 function detectLevel() {
   if (appData.moneyPerDay < 100) {
     console.log('Минимальный уровень достатка');
